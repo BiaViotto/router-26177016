@@ -85,6 +85,7 @@ function Cadastro({ adicionarRegistro }) {
           id="ano"
           name="ano"
           type="number"
+          min="1"
           value={formulario.ano}
           onChange={handleChange}
           placeholder="Ex.: 2025"
