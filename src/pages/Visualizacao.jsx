@@ -9,6 +9,7 @@ function Visualizacao({ title, registros }) {
   return (
     <main className="pagina">
       <h1>{title}</h1>
+      <p>Total de álbuns: {registros.length}</p>
 
       {mensagem && (
         <p className="sucesso">{mensagem}</p>
